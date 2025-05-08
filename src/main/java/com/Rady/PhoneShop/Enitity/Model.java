@@ -10,7 +10,6 @@ import lombok.Data;
 public class Model {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Integer id;
     private String modelName;
     @ManyToOne
