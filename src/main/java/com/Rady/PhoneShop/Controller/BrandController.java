@@ -8,6 +8,10 @@ import com.Rady.PhoneShop.Service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
 @RestController
 @RequestMapping("brands")
 public class BrandController {
@@ -37,6 +41,29 @@ public class BrandController {
         Brand brand=BrandMapper.INSTANCE.toBrand(brandDTO);
         brandService.update(id,brand);
         return ResponseEntity.ok(BrandMapper.INSTANCE.toBrandDto(brand));
+
+    }
+    @GetMapping
+    public ResponseEntity<?> getAllBrands(){
+
+
+        List<BrandDto> list=brandService.getBrands()
+                .stream()
+                .map(brand -> BrandMapper.INSTANCE.toBrandDto(brand))
+                .collect(Collectors.toList());
+
+        /*return ResponseEntity.ok(brandService.getBrands());*/
+        return ResponseEntity.ok(list);
+    }
+
+    @GetMapping("filter")
+    public ResponseEntity<?> getBrandsByName(@RequestParam("brandName") String brandName){
+        List<BrandDto>list  =brandService.getBrands(brandName)
+                .stream()
+                .map(brand -> BrandMapper.INSTANCE.toBrandDto(brand))
+                .collect(Collectors.toList());
+        return ResponseEntity.ok(list);
+
 
     }
 

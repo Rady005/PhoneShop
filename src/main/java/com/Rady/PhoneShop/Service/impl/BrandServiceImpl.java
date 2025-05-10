@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import java.util.Optional;
+import java.util.List;
 
 @Service
 public class BrandServiceImpl implements BrandService {
@@ -32,4 +32,17 @@ public class BrandServiceImpl implements BrandService {
         brand.setBrandName(brandUpdate.getBrandName());
         return brandRepository.save(brand);
     }
+
+    @Override
+    public List<Brand> getBrands() {
+        return brandRepository.findAll();
+    }
+
+    @Override
+    public List<Brand> getBrands(String brandName) {
+      /*  return brandRepository.findByBrandNameLike("%"+brandName+"%");*/
+        return brandRepository.findByBrandNameContaining(brandName);
+
+    }
+
 }
