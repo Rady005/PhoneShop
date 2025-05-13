@@ -11,3 +11,5 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\PhoneShopApplicatio
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\BrandRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\BrandService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\BrandServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandFilter.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandSpec.java
