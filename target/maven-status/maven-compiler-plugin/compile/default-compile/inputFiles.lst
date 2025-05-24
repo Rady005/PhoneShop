@@ -1,5 +1,9 @@
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\BrandController.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ModelController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\BrandDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ModelDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PageDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PaginationDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Brand.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Model.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\ApiException.java
@@ -7,9 +11,14 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\ErrorExce
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\GlobalExceptionHandler.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\ResourceNotFoundException.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Mapper\BrandMapper.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Mapper\ModelMapper.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\PhoneShopApplication.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\BrandRepository.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ModelRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\BrandService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\BrandServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ModelServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ModelService.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\PageUtil.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandFilter.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandSpec.java

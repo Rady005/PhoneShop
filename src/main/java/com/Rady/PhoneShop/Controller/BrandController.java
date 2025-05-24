@@ -34,7 +34,6 @@ public class BrandController {
 
     @PutMapping("{id}")
     public ResponseEntity<?> update(@PathVariable Integer id,
-
                                     @RequestBody BrandDto brandDTO  ){
         Brand brand=BrandMapper.INSTANCE.toBrand(brandDTO);
         brandService.update(id,brand);
