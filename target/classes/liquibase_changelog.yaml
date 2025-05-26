@@ -1,0 +1,68 @@
+databaseChangeLog:
+- changeSet:
+    id: 1748241373494-1
+    author: Lenovo (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+            name: id
+            type: INT
+        - column:
+            constraints:
+              nullable: false
+              unique: true
+            name: brand_name
+            type: VARCHAR(255)
+        tableName: brands
+- changeSet:
+    id: 1748241373494-2
+    author: Lenovo (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+            name: id
+            type: INT
+        - column:
+            name: model_name
+            type: VARCHAR(255)
+        - column:
+            name: brand_id
+            type: INT
+        tableName: models
+- changeSet:
+    id: 1748241373494-3
+    author: Lenovo (generated)
+    changes:
+    - createIndex:
+        associatedWith: ''
+        columns:
+        - column:
+            name: brand_id
+        indexName: FK95s72g5hnsl3o0bqeuhnokdxu
+        tableName: models
+- changeSet:
+    id: 1748241373494-4
+    author: Lenovo (generated)
+    changes:
+    - addForeignKeyConstraint:
+        baseColumnNames: brand_id
+        baseTableName: models
+        constraintName: FK95s72g5hnsl3o0bqeuhnokdxu
+        deferrable: false
+        initiallyDeferred: false
+        onDelete: RESTRICT
+        onUpdate: RESTRICT
+        referencedColumnNames: id
+        referencedTableName: brands
+        validate: true
+

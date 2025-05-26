@@ -2,11 +2,16 @@ package com.Rady.PhoneShop.Controller;
 
 
 import com.Rady.PhoneShop.Dto.BrandDto;
+import com.Rady.PhoneShop.Dto.ModelDto;
 import com.Rady.PhoneShop.Dto.PageDto;
 import com.Rady.PhoneShop.Enitity.Brand;
+import com.Rady.PhoneShop.Enitity.Model;
 import com.Rady.PhoneShop.Mapper.BrandMapper;
+import com.Rady.PhoneShop.Mapper.ModelMapper;
 import com.Rady.PhoneShop.Service.BrandService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.Rady.PhoneShop.Service.ModelService;
+import lombok.RequiredArgsConstructor;
+
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,11 +19,17 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("brands")
 public class BrandController {
-    @Autowired
-    private BrandService brandService;
+
+    private final BrandService brandService;
+    private final ModelService modelService;
+    private final ModelMapper modelMapper;
+
+
+
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<?> create(@RequestBody BrandDto brandDto){
         Brand brand = BrandMapper.INSTANCE.toBrand(brandDto);
@@ -52,6 +63,14 @@ public class BrandController {
         return ResponseEntity.ok(pageDto);
 
     }
+    @GetMapping("{id}/models")
+    public ResponseEntity<?> getModelsByBrand(@PathVariable("id") Integer brandId){
+        List<Model>brands=modelService.getModelByBrand(brandId);
+        List<ModelDto>list= brands.stream()
+                .map(this.modelMapper::toModelDto)
+                .toList();
+        return ResponseEntity.ok(list);
+    }
 
 
 
@@ -73,3 +92,4 @@ public class BrandController {
 
 
 }
+

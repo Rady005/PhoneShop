@@ -21,9 +21,21 @@ spring:
       hibernate:
         connection:
           isolation: TRANSACTION_READ_COMMITTED
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+    enabled: true
 
 logging:
   level:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
-    com.zaxxer.hikari: DEBUG  # Add this to see detailed Hikari connection pool logging
+    com.zaxxer.hikari: DEBUG
+
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+
+
+# Add this to see detailed Hikari connection pool logging

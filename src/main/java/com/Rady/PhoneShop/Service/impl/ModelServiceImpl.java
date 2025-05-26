@@ -8,6 +8,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 
 @Service
 @AllArgsConstructor
@@ -21,6 +23,11 @@ public class ModelServiceImpl implements ModelService {
         Integer brandId = model.getBrand().getId();
         brandService.getBrandById(brandId);
         return modelRepository.save(model);
+    }
+
+    @Override
+    public List<Model> getModelByBrand (Integer brandId) {
+        return modelRepository.findByBrandId(brandId);
     }
 
 }

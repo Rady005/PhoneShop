@@ -6,13 +6,10 @@ import com.Rady.PhoneShop.Enitity.Model;
 import com.Rady.PhoneShop.Mapper.ModelMapper;
 import com.Rady.PhoneShop.Service.ModelService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequiredArgsConstructor
@@ -28,5 +25,7 @@ public class ModelController {
         modelService.save(model);
         return ResponseEntity.ok(model);
     }
+
+
 
 }

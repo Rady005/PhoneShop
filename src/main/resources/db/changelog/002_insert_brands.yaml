@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: renrady123@gmail.com
+      changes:
+        - loadData:
+            tableName: brands
+            columns:
+              - column:
+                  name: id
+                  type: numeric
+              - column:
+                  name: brand_name
+                  type: string
+            file: db/data/002_brand.csv
+
+
+

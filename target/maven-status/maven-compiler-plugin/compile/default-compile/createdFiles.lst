@@ -16,6 +16,7 @@ com\Rady\PhoneShop\Service\util\PageUtil.class
 com\Rady\PhoneShop\exception\ResourceNotFoundException.class
 com\Rady\PhoneShop\Mapper\BrandMapper.class
 com\Rady\PhoneShop\Repository\ModelRepository.class
+com\Rady\PhoneShop\Config\SpringFoxConfig.class
 com\Rady\PhoneShop\Service\util\spec\BrandSpec.class
 com\Rady\PhoneShop\exception\ErrorException.class
 com\Rady\PhoneShop\Mapper\ModelMapper.class
