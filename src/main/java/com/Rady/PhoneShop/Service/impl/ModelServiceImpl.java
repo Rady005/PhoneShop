@@ -25,9 +25,18 @@ public class ModelServiceImpl implements ModelService {
         return modelRepository.save(model);
     }
 
+
+
     @Override
     public List<Model> getModelByBrand (Integer brandId) {
         return modelRepository.findByBrandId(brandId);
     }
+
+    @Override
+    public Model getById (Integer id) {
+        return modelRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Model not found with id: " + id));
+    }
+
 
 }

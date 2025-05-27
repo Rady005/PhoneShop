@@ -23,7 +23,7 @@ spring:
           isolation: TRANSACTION_READ_COMMITTED
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.yaml
-    enabled: true
+    enabled: false
 
 logging:
   level:
