@@ -7,6 +7,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ModelDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PageDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PaginationDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductImportDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Brand.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Color.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Model.java
@@ -25,6 +26,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\PhoneShopApplicatio
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\BrandRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ColorRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ModelRepository.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ProductImportHistoryRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ProductRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\BrandService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ColorService.java

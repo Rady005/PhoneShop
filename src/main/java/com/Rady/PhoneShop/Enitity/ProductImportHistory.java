@@ -1,20 +1,17 @@
 package com.Rady.PhoneShop.Enitity;
-
 import jakarta.persistence.*;
 import lombok.Data;
-
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
 @Entity
 @Table (name = "productImportHistory")
-public class ProductImportHistory {
+public class ProductImportHistory
+{
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
-
 
     @Column(name = "date_import")
     private LocalDateTime dateImport;

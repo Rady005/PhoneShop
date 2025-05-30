@@ -8,6 +8,7 @@ com\Rady\PhoneShop\Mapper\BrandMapperImpl.class
 com\Rady\PhoneShop\Service\ModelService.class
 com\Rady\PhoneShop\Controller\ProductController.class
 com\Rady\PhoneShop\Enitity\Product.class
+com\Rady\PhoneShop\Repository\ProductImportHistoryRepository.class
 com\Rady\PhoneShop\Dto\ModelDto.class
 com\Rady\PhoneShop\Enitity\SaleDetail.class
 com\Rady\PhoneShop\Enitity\Color.class
@@ -25,6 +26,7 @@ com\Rady\PhoneShop\Service\impl\BrandServiceImpl.class
 com\Rady\PhoneShop\Dto\ProductDto.class
 com\Rady\PhoneShop\Dto\BrandDto.class
 com\Rady\PhoneShop\Service\util\spec\BrandFilter.class
+com\Rady\PhoneShop\Dto\ProductImportDto.class
 com\Rady\PhoneShop\Controller\BrandController.class
 com\Rady\PhoneShop\Service\impl\ColorServiceImpl.class
 com\Rady\PhoneShop\Dto\PageDto.class

@@ -16,7 +16,7 @@ public class Sale {
     private Long id;
 
     @Column(name = "sold_date")
-    private LocalDateTime soldDate;
+    private LocalDate soldDate;
 
 
 
