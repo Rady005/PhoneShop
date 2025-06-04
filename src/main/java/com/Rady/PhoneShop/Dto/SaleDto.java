@@ -13,7 +13,7 @@ import java.util.List;
 public class SaleDto {
     @NonNull
     private List<ProductSoldDto> products;
-    private LocalDate soldDate;
+    private LocalDateTime soldDate;
 
 
 }

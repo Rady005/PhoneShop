@@ -1,9 +1,6 @@
 package com.Rady.PhoneShop.Enitity;
-
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
@@ -16,7 +13,7 @@ public class Sale {
     private Long id;
 
     @Column(name = "sold_date")
-    private LocalDate soldDate;
+    private LocalDateTime soldDate;
 
 
 

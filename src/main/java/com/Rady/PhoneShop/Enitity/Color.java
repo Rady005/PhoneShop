@@ -15,7 +15,4 @@ public class Color {
 
     private String colorName;
 
-
-
-
 }

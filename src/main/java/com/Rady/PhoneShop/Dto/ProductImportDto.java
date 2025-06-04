@@ -11,6 +11,7 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 
 @Data
@@ -24,6 +25,5 @@ public class ProductImportDto {
     private BigDecimal importPrice;
 
     @NotNull(message = "Import date cannot be null")
-    @JsonFormat (pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDate importDate;
+    private LocalDateTime importDate;
 }

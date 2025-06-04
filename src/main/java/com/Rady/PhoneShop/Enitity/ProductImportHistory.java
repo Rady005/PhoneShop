@@ -17,7 +17,7 @@ public class ProductImportHistory
     private LocalDateTime dateImport;
 
     @Column(name = "import_unit")
-    private String importUnit;
+    private Integer importUnit;
 
     @Column(name = "price_per_unit")
     private BigDecimal pricePerUnit;

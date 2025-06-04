@@ -10,13 +10,15 @@ import com.Rady.PhoneShop.Mapper.ProductMapper;
 import com.Rady.PhoneShop.Service.ProductService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
-import java.math.BigDecimal;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin
 @RequestMapping ("/products")
 public class ProductController {
 
@@ -42,5 +44,24 @@ public class ProductController {
         productService.setSalePrice(id,priceDto.getPrice());
         return ResponseEntity.ok().build();
     }
+/*    @PostMapping("uploadProduct")
+    public ResponseEntity<?>uploadProduct(@RequestParam("file") MultipartFile file){
+        if (file == null || file.isEmpty()) {
+            return ResponseEntity.badRequest().body("Please select a file to upload");
+        }
+        productService.uploadProduct(file);
+        return ResponseEntity.ok().build();
+    }*/
+    @PostMapping("uploadProduct")
+    public ResponseEntity<?>uploadProduct(@RequestParam("file") MultipartFile file){
+        try {
+            productService.uploadProduct(file);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        return ResponseEntity.ok().build();
+    }
+
 
 }

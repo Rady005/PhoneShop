@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-05-28T13:13:55+0700",
+    date = "2025-06-04T10:43:29+0700",
     comments = "version: 1.6.3, compiler: javac, environment: Java 22.0.1 (Oracle Corporation)"
 )
 @Component
@@ -46,13 +46,9 @@ public class ProductMapperImpl implements ProductMapper {
         ProductImportHistory productImportHistory = new ProductImportHistory();
 
         if ( productImportDto != null ) {
-            if ( productImportDto.getImportDate() != null ) {
-                productImportHistory.setDateImport( productImportDto.getImportDate().atStartOfDay() );
-            }
+            productImportHistory.setDateImport( productImportDto.getImportDate() );
             productImportHistory.setPricePerUnit( productImportDto.getImportPrice() );
-            if ( productImportDto.getImportUint() != null ) {
-                productImportHistory.setImportUnit( String.valueOf( productImportDto.getImportUint() ) );
-            }
+            productImportHistory.setImportUnit( productImportDto.getImportUint() );
         }
         productImportHistory.setProduct( product );
 

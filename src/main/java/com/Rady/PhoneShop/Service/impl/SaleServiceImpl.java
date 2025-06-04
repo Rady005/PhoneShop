@@ -85,8 +85,6 @@ public class SaleServiceImpl implements SaleService {
         productIds.forEach(productService::getById);
         List<Product>products= productRepository.findAllById(productIds);
         Map<Integer,Product> productMap= products.stream().collect(Collectors.toMap(Product::getId, Function.identity()));
-
-
         Sale sale=new Sale();
         sale.setSoldDate(saleDto.getSoldDate());
         saleRepository.save(sale);
@@ -105,10 +103,7 @@ public class SaleServiceImpl implements SaleService {
 
             Integer availableUnits=product.getAvailableUnits()-ps.getNumberOfUnit();
             product.setAvailableUnits(availableUnits);
-
             productRepository.save(product);
-
-
         });
 
     }
