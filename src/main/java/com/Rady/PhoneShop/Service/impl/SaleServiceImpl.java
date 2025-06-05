@@ -85,15 +85,26 @@ public class SaleServiceImpl implements SaleService {
         productIds.forEach(productService::getById);
         List<Product>products= productRepository.findAllById(productIds);
         Map<Integer,Product> productMap= products.stream().collect(Collectors.toMap(Product::getId, Function.identity()));
+
+
         Sale sale=new Sale();
         sale.setSoldDate(saleDto.getSoldDate());
         saleRepository.save(sale);
 
+        System.out.println("Product ids: "+productIds);
+        System.out.println("sale id: "+sale.getId());
         saleDto.getProducts().forEach(ps->{
             Product product= productMap.get(ps.getProductId());
+            if (product.getSalePrice() == null) {
+                throw new ApiException(HttpStatus.BAD_REQUEST,
+                        "Product with id " + ps.getProductId() + " has no sale price set");
+            }
 
             SaleDetail saleDetail=new SaleDetail();
-            saleDetail.setAmount(product.getSalePrice());
+
+            System.out.println("Product Id in loop:  "+ps.getProductId());
+            System.out.println("Product price in loop : "+productMap.get(ps.getProductId()).getSalePrice());
+            saleDetail.setAmount(productMap.get(ps.getProductId()).getSalePrice());
             saleDetail.setProduct(product);
             saleDetail.setSale(sale);
             saleDetail.setUnit(ps.getNumberOfUnit());
@@ -107,6 +118,33 @@ public class SaleServiceImpl implements SaleService {
         });
 
     }
+    @Override
+    public Sale getById (Integer id) {
+        return saleRepository.findById(id)
+                .orElseThrow(() -> new ApiException(HttpStatus.NOT_FOUND, "Sale with id " + id + " not found"));
+    }
+
+    @Override
+    public void cancelSale (Integer saleId) {
+
+        //update sale to status
+        Sale sale =getById(saleId);
+        sale.setActive(false);
+        saleRepository.save(sale);
+
+        //update stock
+        List<SaleDetail> saleDetails = saleDetailRepository.findBySaleId(saleId);
+        List<Integer> productIds = saleDetails.stream()
+                .map(sd -> sd.getProduct().getId()).toList();
+
+        List<Product>products= productRepository.findAllById(productIds);
+        Map<Integer,Product> productMap= products.stream().collect(Collectors.toMap(Product::getId, Function.identity()));
+
+        saleDetails.forEach(sd->{
+            Product product = productMap.get(sd.getProduct().getId());
+            product.setAvailableUnits(product.getAvailableUnits() + sd.getUnit());
+
+        });
+    }
 
 }
-

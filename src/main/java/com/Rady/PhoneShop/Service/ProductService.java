@@ -19,9 +19,8 @@ public interface ProductService {
     void validateStock(Integer productId,Integer number);
 
 
-
     UploadResponse uploadProduct
-            (MultipartFile file) throws Exception;
+            (MultipartFile file);
 
 
 }

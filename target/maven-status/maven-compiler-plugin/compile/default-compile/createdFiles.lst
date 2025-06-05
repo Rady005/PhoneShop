@@ -1,3 +1,4 @@
+com\Rady\PhoneShop\exception\UploadResponse.class
 com\Rady\PhoneShop\PhoneShopApplication.class
 com\Rady\PhoneShop\Controller\ModelController.class
 com\Rady\PhoneShop\Dto\PaginationDto.class
@@ -14,6 +15,7 @@ com\Rady\PhoneShop\Enitity\SaleDetail.class
 com\Rady\PhoneShop\Dto\SaleDto.class
 com\Rady\PhoneShop\Dto\ProductSoldDto.class
 com\Rady\PhoneShop\Enitity\Color.class
+com\Rady\PhoneShop\Config\JacksonConfiguration.class
 com\Rady\PhoneShop\Repository\ProductRepository.class
 com\Rady\PhoneShop\Service\impl\ProductServiceImpl.class
 com\Rady\PhoneShop\exception\ResourceNotFoundException.class
@@ -36,6 +38,7 @@ com\Rady\PhoneShop\Service\impl\ColorServiceImpl.class
 com\Rady\PhoneShop\Dto\PageDto.class
 com\Rady\PhoneShop\Enitity\Model.class
 com\Rady\PhoneShop\Mapper\ModelMapperImpl.class
+com\Rady\PhoneShop\exception\RowError.class
 com\Rady\PhoneShop\Service\ProductService.class
 com\Rady\PhoneShop\Enitity\ProductImportHistory.class
 com\Rady\PhoneShop\Enitity\Sale.class
@@ -46,6 +49,7 @@ com\Rady\PhoneShop\Controller\SaleController.class
 com\Rady\PhoneShop\Repository\ModelRepository.class
 com\Rady\PhoneShop\Config\SpringFoxConfig.class
 com\Rady\PhoneShop\Mapper\ProductMapperImpl.class
+com\Rady\PhoneShop\Validation\UploadProductValidation.class
 com\Rady\PhoneShop\Repository\SaleDetailRepository.class
 com\Rady\PhoneShop\Enitity\Brand.class
 com\Rady\PhoneShop\Service\BrandService.class

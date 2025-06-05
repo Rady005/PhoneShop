@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.Rady.PhoneShop.PhoneShopApplicationTests" time="8.835" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.Rady.PhoneShop.PhoneShopApplicationTests" time="8.76" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4195167189420403470\surefirebooter-20250602101554962_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire4195167189420403470 2025-06-02T10-15-54_604-jvmRun1 surefire-20250602101554962_1tmp surefire_0-20250602101554962_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1454658381602985389\surefirebooter-20250604135318953_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire1454658381602985389 2025-06-04T13-53-18_777-jvmRun1 surefire-20250604135318953_1tmp surefire_0-20250604135318953_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\JavaSpringBoot\PhoneShop\target\test-classes;D:\JavaSpringBoot\PhoneShop\target\classes;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.4.5\spring-boot-starter-data-jpa-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.5\spring-boot-starter-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot\3.4.5\spring-boot-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.5\spring-boot-autoconfigure-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.5\spring-boot-starter-logging-3.4.5.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\Lenovo\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.5\spring-boot-starter-jdbc-3.4.5.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-jdbc\6.2.6\spring-jdbc-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\hibernate\orm\hibernate-core\6.6.13.Final\hibernate-core-6.6.13.Final.jar;C:\Users\Lenovo\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Lenovo\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Lenovo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\7.0.3.Final\hibernate-commons-annotations-7.0.3.Final.jar;C:\Users\Lenovo\.m2\repository\io\smallrye\jandex\3.2.0\jandex-3.2.0.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Lenovo\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Lenovo\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Lenovo\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Lenovo\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Lenovo\.m2\repository\org\springframework\data\spring-data-jpa\3.4.5\spring-data-jpa-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\data\spring-data-commons\3.4.5\spring-data-commons-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-orm\6.2.6\spring-orm-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-context\6.2.6\spring-context-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-aop\6.2.6\spring-aop-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-tx\6.2.6\spring-tx-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-beans\6.2.6\spring-beans-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-aspects\6.2.6\spring-aspects-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\aspectj\aspectjweaver\1.9.24\aspectjweaver-1.9.24.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.5\spring-boot-starter-web-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.5\spring-boot-starter-json-3.4.5.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.5\spring-boot-starter-tomcat-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.40\tomcat-embed-core-10.1.40.jar;C:\Users\Lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.40\tomcat-embed-el-10.1.40.jar;C:\Users\Lenovo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.40\tomcat-embed-websocket-10.1.40.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-web\6.2.6\spring-web-6.2.6.jar;C:\Users\Lenovo\.m2\repository\io\micrometer\micrometer-observation\1.14.6\micrometer-observation-1.14.6.jar;C:\Users\Lenovo\.m2\repository\io\micrometer\micrometer-commons\1.14.6\micrometer-commons-1.14.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-webmvc\6.2.6\spring-webmvc-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-expression\6.2.6\spring-expression-6.2.6.jar;C:\Users\Lenovo\.m2\repository\com\mysql\mysql-connector-j\9.1.0\mysql-connector-j-9.1.0.jar;C:\Users\Lenovo\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\Lenovo\.m2\repository\org\mapstruct\mapstruct\1.6.3\mapstruct-1.6.3.jar;C:\Users\Lenovo\.m2\repository\org\mapstruct\mapstruct-processor\1.6.3\mapstruct-processor-1.6.3.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.5\spring-boot-starter-test-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-test\3.4.5\spring-boot-test-3.4.5.jar;C:\Users\Lenovo\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.5\spring-boot-test-autoconfigure-3.4.5.jar;C:\Users\Lenovo\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Lenovo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Lenovo\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Lenovo\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\Lenovo\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\Lenovo\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\Lenovo\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\Lenovo\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\Lenovo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\Lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\Lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\Lenovo\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Lenovo\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\Lenovo\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\Lenovo\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-core\6.2.6\spring-core-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-jcl\6.2.6\spring-jcl-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\springframework\spring-test\6.2.6\spring-test-6.2.6.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\Lenovo\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.8.5\springdoc-openapi-starter-webmvc-ui-2.8.5.jar;C:\Users\Lenovo\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.8.5\springdoc-openapi-starter-webmvc-api-2.8.5.jar;C:\Users\Lenovo\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.8.5\springdoc-openapi-starter-common-2.8.5.jar;C:\Users\Lenovo\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.28\swagger-core-jakarta-2.2.28.jar;C:\Users\Lenovo\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.28\swagger-annotations-jakarta-2.2.28.jar;C:\Users\Lenovo\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.28\swagger-models-jakarta-2.2.28.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\Lenovo\.m2\repository\org\webjars\swagger-ui\5.18.3\swagger-ui-5.18.3.jar;C:\Users\Lenovo\.m2\repository\org\webjars\webjars-locator-lite\1.0.1\webjars-locator-lite-1.0.1.jar;C:\Users\Lenovo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Lenovo\.m2\repository\org\liquibase\liquibase-core\4.29.2\liquibase-core-4.29.2.jar;C:\Users\Lenovo\.m2\repository\com\opencsv\opencsv\5.9\opencsv-5.9.jar;C:\Users\Lenovo\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\Lenovo\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-text\1.12.0\commons-text-1.12.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\Lenovo\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar;C:\Users\Lenovo\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\jboss\logging\jboss-logging\3.6.1.Final\jboss-logging-3.6.1.Final.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.17.2\commons-codec-1.17.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Lenovo\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\Lenovo\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire4195167189420403470\surefirebooter-20250602101554962_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire1454658381602985389\surefirebooter-20250604135318953_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36-3646"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="D:\JavaSpringBoot\PhoneShop"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="4360"/>
+    <property name="PID" value="5512"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -64,9 +64,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="contextLoads" classname="com.Rady.PhoneShop.PhoneShopApplicationTests" time="0.617">
-    <system-out><![CDATA[10:15:56.129 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.Rady.PhoneShop.PhoneShopApplicationTests]: PhoneShopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:15:56.340 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.Rady.PhoneShop.PhoneShopApplication for test class com.Rady.PhoneShop.PhoneShopApplicationTests
+  <testcase name="contextLoads" classname="com.Rady.PhoneShop.PhoneShopApplicationTests" time="0.502">
+    <system-out><![CDATA[13:53:20.387 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.Rady.PhoneShop.PhoneShopApplicationTests]: PhoneShopApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:53:20.537 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.Rady.PhoneShop.PhoneShopApplication for test class com.Rady.PhoneShop.PhoneShopApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,58 +77,58 @@
 
  :: Spring Boot ::                (v3.4.5)
 
-2025-06-02T10:15:57.697+07:00  INFO 4360 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : Starting PhoneShopApplicationTests using Java 24 with PID 4360 (started by Lenovo in D:\JavaSpringBoot\PhoneShop)
-2025-06-02T10:15:57.700+07:00  INFO 4360 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-06-02T10:15:59.365+07:00  INFO 4360 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-02T10:15:59.541+07:00  INFO 4360 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 154 ms. Found 7 JPA repository interfaces.
-2025-06-02T10:16:00.195+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11a4022a
-2025-06-02T10:16:00.420+07:00  INFO 4360 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-02T10:16:00.496+07:00  INFO 4360 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-02T10:16:00.566+07:00  INFO 4360 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-02T10:16:01.029+07:00  INFO 4360 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-02T10:16:01.089+07:00  WARN 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
-2025-06-02T10:16:01.090+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
-2025-06-02T10:16:01.097+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
-2025-06-02T10:16:01.098+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
-2025-06-02T10:16:01.098+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
-2025-06-02T10:16:01.098+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
-2025-06-02T10:16:01.098+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery............."SELECT 1"
-2025-06-02T10:16:01.100+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
-2025-06-02T10:16:01.101+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
-2025-06-02T10:16:01.101+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
-2025-06-02T10:16:01.102+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
-2025-06-02T10:16:01.103+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
-2025-06-02T10:16:01.103+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
-2025-06-02T10:16:01.104+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
-2025-06-02T10:16:01.104+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
-2025-06-02T10:16:01.104+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
-2025-06-02T10:16:01.104+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................300000
-2025-06-02T10:16:01.105+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
-2025-06-02T10:16:01.105+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
-2025-06-02T10:16:01.105+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/PhoneShop?useSSL=false&serverTimezone=UTC
-2025-06-02T10:16:01.106+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
-2025-06-02T10:16:01.106+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
-2025-06-02T10:16:01.106+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
-2025-06-02T10:16:01.106+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................20
-2025-06-02T10:16:01.107+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
-2025-06-02T10:16:01.107+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
-2025-06-02T10:16:01.107+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................20
-2025-06-02T10:16:01.107+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
-2025-06-02T10:16:01.107+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
-2025-06-02T10:16:01.108+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
-2025-06-02T10:16:01.108+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
-2025-06-02T10:16:01.109+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
-2025-06-02T10:16:01.109+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : schema..........................none
-2025-06-02T10:16:01.109+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
-2025-06-02T10:16:01.109+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
-2025-06-02T10:16:01.109+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : username........................"root"
-2025-06-02T10:16:01.110+07:00 DEBUG 4360 --- [           main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
-2025-06-02T10:16:01.110+07:00  INFO 4360 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-02T10:16:01.360+07:00  INFO 4360 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21a5b599
-2025-06-02T10:16:01.362+07:00  INFO 4360 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-02T10:16:01.390+07:00  WARN 4360 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-02T10:16:01.392+07:00  WARN 4360 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-06-02T10:16:01.408+07:00  INFO 4360 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-04T13:53:21.145+07:00  INFO 5512 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : Starting PhoneShopApplicationTests using Java 24 with PID 5512 (started by Lenovo in D:\JavaSpringBoot\PhoneShop)
+2025-06-04T13:53:21.146+07:00  INFO 5512 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-06-04T13:53:22.294+07:00  INFO 5512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-04T13:53:22.400+07:00  INFO 5512 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 7 JPA repository interfaces.
+2025-06-04T13:53:22.851+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@11a4022a
+2025-06-04T13:53:23.049+07:00  INFO 5512 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-04T13:53:23.145+07:00  INFO 5512 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-04T13:53:23.221+07:00  INFO 5512 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-04T13:53:23.732+07:00  INFO 5512 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-04T13:53:23.762+07:00  WARN 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2025-06-04T13:53:23.762+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - configuration:
+2025-06-04T13:53:23.765+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : allowPoolSuspension.............false
+2025-06-04T13:53:23.765+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : autoCommit......................true
+2025-06-04T13:53:23.766+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : catalog.........................none
+2025-06-04T13:53:23.766+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionInitSql...............none
+2025-06-04T13:53:23.766+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionTestQuery............."SELECT 1"
+2025-06-04T13:53:23.769+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : connectionTimeout...............20000
+2025-06-04T13:53:23.769+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSource......................none
+2025-06-04T13:53:23.769+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceClassName.............none
+2025-06-04T13:53:23.770+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceJNDI..................none
+2025-06-04T13:53:23.770+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : dataSourceProperties............{password=<masked>}
+2025-06-04T13:53:23.770+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : driverClassName................."com.mysql.cj.jdbc.Driver"
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : exceptionOverrideClassName......none
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : healthCheckProperties...........{}
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : healthCheckRegistry.............none
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : idleTimeout.....................300000
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : initializationFailTimeout.......1
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : isolateInternalQueries..........false
+2025-06-04T13:53:23.771+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : jdbcUrl.........................jdbc:mysql://localhost:3306/PhoneShop?useSSL=false&serverTimezone=UTC
+2025-06-04T13:53:23.772+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : keepaliveTime...................0
+2025-06-04T13:53:23.772+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : leakDetectionThreshold..........0
+2025-06-04T13:53:23.772+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : maxLifetime.....................1800000
+2025-06-04T13:53:23.772+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : maximumPoolSize.................20
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : metricRegistry..................none
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : metricsTrackerFactory...........none
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : minimumIdle.....................20
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : password........................<masked>
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : poolName........................"HikariPool-1"
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : readOnly........................false
+2025-06-04T13:53:23.773+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : registerMbeans..................false
+2025-06-04T13:53:23.774+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : scheduledExecutor...............none
+2025-06-04T13:53:23.774+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : schema..........................none
+2025-06-04T13:53:23.774+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : threadFactory...................internal
+2025-06-04T13:53:23.774+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : transactionIsolation............default
+2025-06-04T13:53:23.774+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : username........................"root"
+2025-06-04T13:53:23.775+07:00 DEBUG 5512 --- [           main] com.zaxxer.hikari.HikariConfig           : validationTimeout...............5000
+2025-06-04T13:53:23.775+07:00  INFO 5512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-04T13:53:24.018+07:00  INFO 5512 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d1f23a0
+2025-06-04T13:53:24.023+07:00  INFO 5512 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-04T13:53:24.091+07:00  WARN 5512 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-04T13:53:24.092+07:00  WARN 5512 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-06-04T13:53:24.125+07:00  INFO 5512 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -136,51 +136,51 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-02T10:16:01.462+07:00 DEBUG 4360 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-2025-06-02T10:16:01.469+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66ba11e5
-2025-06-02T10:16:01.500+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
-2025-06-02T10:16:01.507+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2069d496
-2025-06-02T10:16:01.539+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
-2025-06-02T10:16:01.544+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58ee4db9
-2025-06-02T10:16:01.576+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
-2025-06-02T10:16:01.583+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@290b5596
-2025-06-02T10:16:01.613+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
-2025-06-02T10:16:01.618+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43eaa710
-2025-06-02T10:16:01.649+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
-2025-06-02T10:16:01.654+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30b2159f
-2025-06-02T10:16:01.686+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
-2025-06-02T10:16:01.694+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5221412a
-2025-06-02T10:16:01.725+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
-2025-06-02T10:16:01.732+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@374793a
-2025-06-02T10:16:01.763+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
-2025-06-02T10:16:01.767+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32ec7889
-2025-06-02T10:16:01.800+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
-2025-06-02T10:16:01.805+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65bddf54
-2025-06-02T10:16:01.836+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=11, active=0, idle=11, waiting=0)
-2025-06-02T10:16:01.841+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c37e956
-2025-06-02T10:16:01.872+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=12, active=0, idle=12, waiting=0)
-2025-06-02T10:16:01.877+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7403b93a
-2025-06-02T10:16:01.908+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=13, active=0, idle=13, waiting=0)
-2025-06-02T10:16:01.913+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d4bfe69
-2025-06-02T10:16:01.944+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=14, active=0, idle=14, waiting=0)
-2025-06-02T10:16:01.949+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d32b6b
-2025-06-02T10:16:01.981+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=15, active=0, idle=15, waiting=0)
-2025-06-02T10:16:01.997+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7591e2da
-2025-06-02T10:16:02.029+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=16, active=0, idle=16, waiting=0)
-2025-06-02T10:16:02.033+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b2eec7
-2025-06-02T10:16:02.064+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=17, active=0, idle=17, waiting=0)
-2025-06-02T10:16:02.068+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@636ba089
-2025-06-02T10:16:02.100+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=18, active=0, idle=18, waiting=0)
-2025-06-02T10:16:02.105+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a136e08
-2025-06-02T10:16:02.137+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=19, active=0, idle=19, waiting=0)
-2025-06-02T10:16:02.141+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d4fd695
-2025-06-02T10:16:02.173+07:00 DEBUG 4360 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
-2025-06-02T10:16:02.402+07:00  INFO 4360 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-02T10:16:02.447+07:00 DEBUG 4360 --- [           main] org.hibernate.SQL                        : alter table product_import_history modify column import_unit integer
-Hibernate: alter table product_import_history modify column import_unit integer
-2025-06-02T10:16:02.593+07:00  INFO 4360 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-02T10:16:03.451+07:00  WARN 4360 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-02T10:16:04.148+07:00  INFO 4360 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : Started PhoneShopApplicationTests in 7.407 seconds (process running for 8.903)
+2025-06-04T13:53:24.125+07:00 DEBUG 5512 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-06-04T13:53:24.137+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60fe39a8
+2025-06-04T13:53:24.170+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2025-06-04T13:53:24.189+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10a7c86
+2025-06-04T13:53:24.220+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2025-06-04T13:53:24.225+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@790b27c5
+2025-06-04T13:53:24.257+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2025-06-04T13:53:24.261+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1350662b
+2025-06-04T13:53:24.294+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2025-06-04T13:53:24.299+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@620f4b28
+2025-06-04T13:53:24.332+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2025-06-04T13:53:24.339+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5553b638
+2025-06-04T13:53:24.371+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2025-06-04T13:53:24.376+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c5b5f63
+2025-06-04T13:53:24.407+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2025-06-04T13:53:24.414+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@468dc6d2
+2025-06-04T13:53:24.445+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2025-06-04T13:53:24.455+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c84e52b
+2025-06-04T13:53:24.487+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-06-04T13:53:24.491+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@301ea065
+2025-06-04T13:53:24.523+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=11, active=0, idle=11, waiting=0)
+2025-06-04T13:53:24.532+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19af023
+2025-06-04T13:53:24.563+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=12, active=0, idle=12, waiting=0)
+2025-06-04T13:53:24.572+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36ca5fa1
+2025-06-04T13:53:24.603+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=13, active=0, idle=13, waiting=0)
+2025-06-04T13:53:24.612+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dd9f3d2
+2025-06-04T13:53:24.643+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=14, active=0, idle=14, waiting=0)
+2025-06-04T13:53:24.648+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c5c8814
+2025-06-04T13:53:24.679+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=15, active=0, idle=15, waiting=0)
+2025-06-04T13:53:24.690+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@356dafeb
+2025-06-04T13:53:24.725+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=16, active=0, idle=16, waiting=0)
+2025-06-04T13:53:24.737+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a2ec43f
+2025-06-04T13:53:24.769+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=17, active=0, idle=17, waiting=0)
+2025-06-04T13:53:24.778+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2192dfd7
+2025-06-04T13:53:24.810+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=18, active=0, idle=18, waiting=0)
+2025-06-04T13:53:24.816+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68acbe89
+2025-06-04T13:53:24.847+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=19, active=0, idle=19, waiting=0)
+2025-06-04T13:53:24.854+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6738e0f5
+2025-06-04T13:53:24.886+07:00 DEBUG 5512 --- [onnection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - After adding stats (total=20, active=0, idle=20, waiting=0)
+2025-06-04T13:53:26.213+07:00  INFO 5512 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-04T13:53:26.327+07:00 DEBUG 5512 --- [           main] org.hibernate.SQL                        : alter table sales add column active bit not null
+Hibernate: alter table sales add column active bit not null
+2025-06-04T13:53:26.526+07:00  INFO 5512 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-04T13:53:27.662+07:00  WARN 5512 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-04T13:53:28.450+07:00  INFO 5512 --- [           main] c.R.PhoneShop.PhoneShopApplicationTests  : Started PhoneShopApplicationTests in 7.737 seconds (process running for 9.333)
 ]]></system-out>
     <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 WARNING: A Java agent has been loaded dynamically (C:\Users\Lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar)
