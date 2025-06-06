@@ -16,10 +16,12 @@ com\Rady\PhoneShop\Dto\SaleDto.class
 com\Rady\PhoneShop\Dto\ProductSoldDto.class
 com\Rady\PhoneShop\Enitity\Color.class
 com\Rady\PhoneShop\Config\JacksonConfiguration.class
+com\Rady\PhoneShop\Service\Projection\ProductSold.class
 com\Rady\PhoneShop\Repository\ProductRepository.class
 com\Rady\PhoneShop\Service\impl\ProductServiceImpl.class
 com\Rady\PhoneShop\exception\ResourceNotFoundException.class
 com\Rady\PhoneShop\Mapper\BrandMapper.class
+com\Rady\PhoneShop\Controller\ReportController.class
 com\Rady\PhoneShop\Service\util\spec\BrandSpec.class
 com\Rady\PhoneShop\Service\impl\SaleServiceImpl.class
 com\Rady\PhoneShop\exception\ErrorException.class
@@ -48,6 +50,7 @@ com\Rady\PhoneShop\Service\util\PageUtil.class
 com\Rady\PhoneShop\Controller\SaleController.class
 com\Rady\PhoneShop\Repository\ModelRepository.class
 com\Rady\PhoneShop\Config\SpringFoxConfig.class
+com\Rady\PhoneShop\Service\impl\ReportServiceImpl.class
 com\Rady\PhoneShop\Mapper\ProductMapperImpl.class
 com\Rady\PhoneShop\Validation\UploadProductValidation.class
 com\Rady\PhoneShop\Repository\SaleDetailRepository.class
@@ -55,3 +58,4 @@ com\Rady\PhoneShop\Enitity\Brand.class
 com\Rady\PhoneShop\Service\BrandService.class
 com\Rady\PhoneShop\Service\ColorService.class
 com\Rady\PhoneShop\Service\SaleService.class
+com\Rady\PhoneShop\Service\ReportService.class

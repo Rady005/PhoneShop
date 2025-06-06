@@ -27,6 +27,8 @@ spring:
       hibernate:
         connection:
           isolation: TRANSACTION_READ_COMMITTED
+    mapping-resources:
+      - orm/Queries/ReportQuery.xml
 
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.yaml

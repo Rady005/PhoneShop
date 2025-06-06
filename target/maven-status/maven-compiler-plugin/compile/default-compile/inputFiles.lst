@@ -3,6 +3,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\SpringFoxCon
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\BrandController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ModelController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ProductController.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ReportController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\SaleController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\BrandDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ModelDto.java
@@ -43,9 +44,12 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\BrandS
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ColorServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ModelServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ProductServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ReportServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\SaleServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ModelService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ProductService.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\Projection\ProductSold.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ReportService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\SaleService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\PageUtil.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandFilter.java

@@ -88,6 +88,7 @@ public class SaleServiceImpl implements SaleService {
 
 
         Sale sale=new Sale();
+        sale.setActive(true);
         sale.setSoldDate(saleDto.getSoldDate());
         saleRepository.save(sale);
 
@@ -104,7 +105,7 @@ public class SaleServiceImpl implements SaleService {
 
             System.out.println("Product Id in loop:  "+ps.getProductId());
             System.out.println("Product price in loop : "+productMap.get(ps.getProductId()).getSalePrice());
-            saleDetail.setAmount(productMap.get(ps.getProductId()).getSalePrice());
+            saleDetail.setAmount(productMap.get(ps.getProductId()).getSalePrice().multiply(new java.math.BigDecimal(ps.getNumberOfUnit())));
             saleDetail.setProduct(product);
             saleDetail.setSale(sale);
             saleDetail.setUnit(ps.getNumberOfUnit());
@@ -127,8 +128,12 @@ public class SaleServiceImpl implements SaleService {
     @Override
     public void cancelSale (Integer saleId) {
 
+
         //update sale to status
         Sale sale =getById(saleId);
+        if (!sale.isActive()) {
+            throw new ApiException(HttpStatus.BAD_REQUEST, "Sale with id " + saleId + " is already cancelled");
+        }
         sale.setActive(false);
         saleRepository.save(sale);
 
@@ -143,6 +148,7 @@ public class SaleServiceImpl implements SaleService {
         saleDetails.forEach(sd->{
             Product product = productMap.get(sd.getProduct().getId());
             product.setAvailableUnits(product.getAvailableUnits() + sd.getUnit());
+            productRepository.save(product);
 
         });
     }
