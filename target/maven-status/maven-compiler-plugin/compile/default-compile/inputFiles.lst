@@ -12,6 +12,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PaginationDto.j
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PriceDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductImportDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductReportDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductSoldDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\SaleDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Brand.java
@@ -54,4 +55,6 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\SaleService
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\PageUtil.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandFilter.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandSpec.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\SaleDetailFilter.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\SaleDetailSpec.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Validation\UploadProductValidation.java
