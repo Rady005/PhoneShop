@@ -1,3 +1,4 @@
+com\Rady\PhoneShop\Dto\ExpenseReportDto.class
 com\Rady\PhoneShop\exception\UploadResponse.class
 com\Rady\PhoneShop\PhoneShopApplication.class
 com\Rady\PhoneShop\Controller\ModelController.class
@@ -14,12 +15,14 @@ com\Rady\PhoneShop\Repository\ProductImportHistoryRepository.class
 com\Rady\PhoneShop\Dto\ModelDto.class
 com\Rady\PhoneShop\Enitity\SaleDetail.class
 com\Rady\PhoneShop\Dto\SaleDto.class
+com\Rady\PhoneShop\Service\util\spec\ProductImportHistoryFilter.class
 com\Rady\PhoneShop\Dto\ProductSoldDto.class
 com\Rady\PhoneShop\Enitity\Color.class
 com\Rady\PhoneShop\Config\JacksonConfiguration.class
 com\Rady\PhoneShop\Service\Projection\ProductSold.class
 com\Rady\PhoneShop\Repository\ProductRepository.class
 com\Rady\PhoneShop\Service\impl\ProductServiceImpl.class
+com\Rady\PhoneShop\Service\util\spec\ProductImportHistorySpec.class
 com\Rady\PhoneShop\exception\ResourceNotFoundException.class
 com\Rady\PhoneShop\Mapper\BrandMapper.class
 com\Rady\PhoneShop\Controller\ReportController.class

@@ -6,6 +6,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ProductC
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ReportController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\SaleController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\BrandDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ExpenseReportDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ModelDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PageDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\PaginationDto.java
@@ -55,6 +56,8 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\SaleService
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\PageUtil.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandFilter.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\BrandSpec.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\ProductImportHistoryFilter.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\ProductImportHistorySpec.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\SaleDetailFilter.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\util\spec\SaleDetailSpec.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Validation\UploadProductValidation.java

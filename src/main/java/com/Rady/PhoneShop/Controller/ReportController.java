@@ -1,6 +1,7 @@
 package com.Rady.PhoneShop.Controller;
 
 
+import com.Rady.PhoneShop.Dto.ExpenseReportDto;
 import com.Rady.PhoneShop.Dto.ProductReportDto;
 
 import com.Rady.PhoneShop.Service.ReportService;
@@ -31,6 +32,12 @@ public class ReportController {
         List<ProductReportDto> productSold=reportService.getProductReport(startDate,endDate);
         return ResponseEntity.ok(productSold);
     }
+    @GetMapping("expense/{startDate}/{endDate}")
+    public ResponseEntity<?> expenseReport(@DateTimeFormat(pattern = "yyyy-mm-dd") @PathVariable LocalDate startDate, @DateTimeFormat(pattern = "yyyy-mm-dd") @PathVariable LocalDate endDate){
+        List<ExpenseReportDto> expenseReport = reportService.getExpenseReport(startDate, endDate);
+        return ResponseEntity.ok(expenseReport);
+    }
+
 
 
 

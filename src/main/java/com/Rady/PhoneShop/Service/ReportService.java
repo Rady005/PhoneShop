@@ -1,5 +1,6 @@
 package com.Rady.PhoneShop.Service;
 
+import com.Rady.PhoneShop.Dto.ExpenseReportDto;
 import com.Rady.PhoneShop.Dto.ProductReportDto;
 import com.Rady.PhoneShop.Service.Projection.ProductSold;
 
@@ -10,6 +11,9 @@ public interface ReportService {
 
     List<ProductSold> getProductSold(LocalDate startDate, LocalDate endDate);
     List<ProductReportDto> getProductReport(LocalDate startDate, LocalDate endDate);
+    List<ExpenseReportDto> getExpenseReport(LocalDate startDate, LocalDate endDate);
+
+
 
 
 }
