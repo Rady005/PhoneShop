@@ -11,7 +11,7 @@ public class SpringFoxConfig {
     @Bean
     public OpenAPI apiInfo() {
         return new OpenAPI()
-                .openapi("3.0.1")  // Add this line to specify OpenAPI version
+                .openapi("3.0.1")
                 .info(new Info()
                         .title("Phone Shop API")
                         .description("API documentation for Phone Shop application")

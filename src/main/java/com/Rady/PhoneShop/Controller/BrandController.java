@@ -36,7 +36,7 @@ public class BrandController {
         brand=brandService.create(brand);
         return ResponseEntity.ok(BrandMapper.INSTANCE.toBrandDto(brand));
 
-    }
+    }   
     @GetMapping("{id}")
     public ResponseEntity<?> getOneBranch(@PathVariable Integer id){
         Brand brand=brandService.getBrandById(id);

@@ -1,6 +1,5 @@
 package com.Rady.PhoneShop.Controller;
 
-
 import com.Rady.PhoneShop.Dto.ExpenseReportDto;
 import com.Rady.PhoneShop.Dto.ProductReportDto;
 
@@ -17,7 +16,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ReportController {
     private final ReportService reportService;
-
 
 /*use query method to get product sold
     @GetMapping("{startDate}/{endDate}")

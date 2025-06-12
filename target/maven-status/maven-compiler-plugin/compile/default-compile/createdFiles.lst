@@ -10,6 +10,7 @@ com\Rady\PhoneShop\Repository\ColorRepository.class
 com\Rady\PhoneShop\Mapper\BrandMapperImpl.class
 com\Rady\PhoneShop\Service\ModelService.class
 com\Rady\PhoneShop\Controller\ProductController.class
+com\Rady\PhoneShop\Config\PasswordConfig.class
 com\Rady\PhoneShop\Enitity\Product.class
 com\Rady\PhoneShop\Repository\ProductImportHistoryRepository.class
 com\Rady\PhoneShop\Dto\ModelDto.class
@@ -43,6 +44,7 @@ com\Rady\PhoneShop\Controller\BrandController.class
 com\Rady\PhoneShop\Service\impl\ColorServiceImpl.class
 com\Rady\PhoneShop\Dto\PageDto.class
 com\Rady\PhoneShop\Dto\ProductReportDto.class
+com\Rady\PhoneShop\Config\SecurityConfig.class
 com\Rady\PhoneShop\Enitity\Model.class
 com\Rady\PhoneShop\Service\util\spec\SaleDetailSpec.class
 com\Rady\PhoneShop\Mapper\ModelMapperImpl.class
