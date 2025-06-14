@@ -1,5 +1,7 @@
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\JacksonConfiguration.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\PasswordConfig.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\PermissionEnum.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Role.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\SecurityConfig.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\SpringFoxConfig.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\BrandController.java

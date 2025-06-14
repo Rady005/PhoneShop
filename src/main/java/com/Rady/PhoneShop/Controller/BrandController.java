@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
@@ -29,14 +30,16 @@ public class BrandController {
     private final ModelMapper modelMapper;
 
 
-
+    @PreAuthorize("hasAuthority('brand:write')")
     @RequestMapping(method = RequestMethod.POST)
     public ResponseEntity<?> create(@RequestBody BrandDto brandDto){
         Brand brand = BrandMapper.INSTANCE.toBrand(brandDto);
         brand=brandService.create(brand);
         return ResponseEntity.ok(BrandMapper.INSTANCE.toBrandDto(brand));
 
-    }   
+    }
+
+    @PreAuthorize("hasAuthority('brand:read')")
     @GetMapping("{id}")
     public ResponseEntity<?> getOneBranch(@PathVariable Integer id){
         Brand brand=brandService.getBrandById(id);

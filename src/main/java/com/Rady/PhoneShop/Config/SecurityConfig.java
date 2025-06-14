@@ -3,7 +3,11 @@ package com.Rady.PhoneShop.Config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
@@ -18,6 +22,10 @@ import java.util.Collections;
 
 @Configuration
 @EnableWebSecurity
+@EnableMethodSecurity(
+        prePostEnabled = true,
+        securedEnabled = true,
+        jsr250Enabled = true)
 public class SecurityConfig {
 
     @Autowired
@@ -30,7 +38,11 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         // Define specific URL patterns first
                         .requestMatchers("/","/index.html").permitAll()
-                        .requestMatchers("/brands").hasRole("SALES")
+                   /*     .requestMatchers("/brands").hasRole("SALES")*/
+                        .requestMatchers(HttpMethod.POST,"/brands").hasAuthority(PermissionEnum.BRAND_WRITE.getDescription())
+                        .requestMatchers(HttpMethod.GET,"/brands").hasAuthority(PermissionEnum.MODEL_READ.getDescription())
+                        .requestMatchers("/models").hasRole(Role.Sale.name())
+
                         .anyRequest().authenticated()
                 )
 
@@ -48,12 +60,12 @@ public class SecurityConfig {
 
         UserDetails user = User.builder()
                 .username("admin")
-                .roles("ADMIN")
+                .authorities(Role.Admin.getAuthorities())
                 .password(passwordEncoder.encode(("admin001")))
                 .build();
         UserDetails user1=User.builder()
                 .username("rady")
-                .roles("SALES")
+                .authorities(Role.Sale.getAuthorities())
                 .password(passwordEncoder.encode("rady123"))
                 .build();
 
