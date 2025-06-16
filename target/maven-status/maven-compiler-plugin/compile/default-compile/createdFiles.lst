@@ -10,7 +10,7 @@ com\Rady\PhoneShop\Repository\ColorRepository.class
 com\Rady\PhoneShop\Mapper\BrandMapperImpl.class
 com\Rady\PhoneShop\Service\ModelService.class
 com\Rady\PhoneShop\Controller\ProductController.class
-com\Rady\PhoneShop\Config\PasswordConfig.class
+com\Rady\PhoneShop\Config\Security\JWT\LoginFilter.class
 com\Rady\PhoneShop\Enitity\Product.class
 com\Rady\PhoneShop\Repository\ProductImportHistoryRepository.class
 com\Rady\PhoneShop\Dto\ModelDto.class
@@ -18,11 +18,11 @@ com\Rady\PhoneShop\Enitity\SaleDetail.class
 com\Rady\PhoneShop\Dto\SaleDto.class
 com\Rady\PhoneShop\Service\util\spec\ProductImportHistoryFilter.class
 com\Rady\PhoneShop\Dto\ProductSoldDto.class
+com\Rady\PhoneShop\Config\Security\SecurityConfig.class
 com\Rady\PhoneShop\Enitity\Color.class
 com\Rady\PhoneShop\Config\JacksonConfiguration.class
 com\Rady\PhoneShop\Service\Projection\ProductSold.class
 com\Rady\PhoneShop\Repository\ProductRepository.class
-com\Rady\PhoneShop\Config\PermissionEnum.class
 com\Rady\PhoneShop\Service\impl\ProductServiceImpl.class
 com\Rady\PhoneShop\Service\util\spec\ProductImportHistorySpec.class
 com\Rady\PhoneShop\exception\ResourceNotFoundException.class
@@ -36,6 +36,8 @@ com\Rady\PhoneShop\Service\impl\ModelServiceImpl.class
 com\Rady\PhoneShop\exception\ApiException.class
 com\Rady\PhoneShop\exception\GlobalExceptionHandler.class
 com\Rady\PhoneShop\Service\impl\BrandServiceImpl.class
+com\Rady\PhoneShop\Config\Security\PasswordConfig.class
+com\Rady\PhoneShop\Config\Security\JWT\TokenVerifyFilter.class
 com\Rady\PhoneShop\Dto\ProductDto.class
 com\Rady\PhoneShop\Repository\SaleRepository.class
 com\Rady\PhoneShop\Dto\BrandDto.class
@@ -43,9 +45,10 @@ com\Rady\PhoneShop\Service\util\spec\BrandFilter.class
 com\Rady\PhoneShop\Dto\ProductImportDto.class
 com\Rady\PhoneShop\Controller\BrandController.class
 com\Rady\PhoneShop\Service\impl\ColorServiceImpl.class
+com\Rady\PhoneShop\Config\Security\PermissionEnum.class
+com\Rady\PhoneShop\Config\Security\JWT\LoginRequest.class
 com\Rady\PhoneShop\Dto\PageDto.class
 com\Rady\PhoneShop\Dto\ProductReportDto.class
-com\Rady\PhoneShop\Config\SecurityConfig.class
 com\Rady\PhoneShop\Enitity\Model.class
 com\Rady\PhoneShop\Service\util\spec\SaleDetailSpec.class
 com\Rady\PhoneShop\Mapper\ModelMapperImpl.class
@@ -60,7 +63,6 @@ com\Rady\PhoneShop\Controller\SaleController.class
 com\Rady\PhoneShop\Repository\ModelRepository.class
 com\Rady\PhoneShop\Config\SpringFoxConfig.class
 com\Rady\PhoneShop\Service\impl\ReportServiceImpl.class
-com\Rady\PhoneShop\Config\Role.class
 com\Rady\PhoneShop\Mapper\ProductMapperImpl.class
 com\Rady\PhoneShop\Validation\UploadProductValidation.class
 com\Rady\PhoneShop\Repository\SaleDetailRepository.class
@@ -68,4 +70,5 @@ com\Rady\PhoneShop\Enitity\Brand.class
 com\Rady\PhoneShop\Service\BrandService.class
 com\Rady\PhoneShop\Service\ColorService.class
 com\Rady\PhoneShop\Service\SaleService.class
+com\Rady\PhoneShop\Config\Security\Role.class
 com\Rady\PhoneShop\Service\ReportService.class
