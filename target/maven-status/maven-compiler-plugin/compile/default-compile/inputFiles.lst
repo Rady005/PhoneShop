@@ -1,4 +1,6 @@
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\JacksonConfiguration.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\JpaConfig.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\AuthUser.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\JWT\LoginFilter.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\JWT\LoginRequest.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\JWT\TokenVerifyFilter.java
@@ -6,6 +8,9 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\Pas
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\PermissionEnum.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\Role.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\SecurityConfig.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\UserDetailServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\UserSerivceFakeImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\Security\UserService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Config\SpringFoxConfig.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\BrandController.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Controller\ModelController.java
@@ -23,13 +28,17 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductImportDt
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductReportDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\ProductSoldDto.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Dto\SaleDto.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\AuditEntity.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Brand.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Color.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Model.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Permission.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Product.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\ProductImportHistory.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Role.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\Sale.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\SaleDetail.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Enitity\User.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\ApiException.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\ErrorException.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\exception\GlobalExceptionHandler.java
@@ -47,6 +56,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ProductI
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\ProductRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\SaleDetailRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\SaleRepository.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Repository\UserRepository.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\BrandService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ColorService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\BrandServiceImpl.java
@@ -55,6 +65,7 @@ D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ModelS
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ProductServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\ReportServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\SaleServiceImpl.java
+D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\impl\UserServiceImpl.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ModelService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\ProductService.java
 D:\JavaSpringBoot\PhoneShop\src\main\java\com\Rady\PhoneShop\Service\Projection\ProductSold.java

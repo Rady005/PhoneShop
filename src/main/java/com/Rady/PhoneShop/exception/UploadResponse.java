@@ -15,5 +15,5 @@ public class UploadResponse
     public UploadResponse(String message, List<RowError> errors) {
         this.message = message;
         this.errors = errors;
-    }
+    }   
 }

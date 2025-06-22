@@ -10,7 +10,6 @@ import java.util.Map;
 
 public interface BrandService {
     Brand create(Brand brand);
-
     Brand getBrandById(Integer id);
     Brand update(Integer id, Brand brand);
     Page<Brand> getBrands(Map<String,String> params);

@@ -6,12 +6,13 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import org.springframework.data.domain.Auditable;
 
 @Data
 @Entity
 @Table(name = "brands")
 
-public class Brand {
+public class Brand  extends AuditEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;

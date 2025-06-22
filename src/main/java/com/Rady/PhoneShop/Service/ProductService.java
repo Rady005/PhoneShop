@@ -17,8 +17,6 @@ public interface ProductService {
     void setSalePrice(Integer id, BigDecimal salePrice);
 
     void validateStock(Integer productId,Integer number);
-
-
     UploadResponse uploadProduct
             (MultipartFile file);
 
